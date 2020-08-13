@@ -6,7 +6,7 @@ const styles = StyleSheet.create({
         display: 'flex',
         alignItems: 'center',
         justifyContent: 'center',
-        height: 250
+        height: 310
     },
     background: {
         width: '100%',
@@ -22,15 +22,25 @@ const styles = StyleSheet.create({
     },
     title: {
         fontFamily: 'Poppins_600SemiBold',
-        color: '#1264d1',
+        color: '#4f4f4f',
         fontSize: 24,
         lineHeight: 34,
-        marginTop: 40,
+        marginTop: 20,
         marginLeft: 40
+    },
+    subTitle: {
+        fontFamily: 'Poppins_600SemiBold',
+        color: '#898a8d',
+        fontSize: 14,
+        lineHeight: 24,
+        marginLeft: 40,
+        marginTop: 20,
+        marginBottom: 20
     },
     inputBlock: {
         display: 'flex',
-        margin: 40
+        marginLeft: 40,
+        marginRight: 40
     },
     input: {
         backgroundColor: '#FAFAFC',
@@ -42,19 +52,12 @@ const styles = StyleSheet.create({
         fontSize: 16,
         borderWidth: 1,
         borderColor: '#e6e6f0',
-        borderTopLeftRadius: 10,
-        borderTopRightRadius: 10,
-    },
-    inputPassword: {
-        borderTopLeftRadius: 0,
-        borderTopRightRadius: 0,
-        borderBottomLeftRadius: 10,
-        borderBottomRightRadius: 10
+        borderRadius: 10
     },
     button: {
         backgroundColor: '#1264d1',
         borderRadius: 10,
-        marginTop: 40,
+        marginTop: 20,
         display: 'flex',
         justifyContent: 'center',
         alignItems: 'center',
@@ -65,24 +68,12 @@ const styles = StyleSheet.create({
         fontSize: 16,
         lineHeight: 50
     },
-    bottomContent: {
-        display: 'flex',
-        flexDirection: 'row',
-        justifyContent: 'space-between'
+    backButton: {
+        marginHorizontal: 40,
+        marginTop: 20
     },
-    checkArea: {
-        display: 'flex',
-        flexDirection: 'row'
-    },
-    remember: {
-        fontFamily: 'Poppins_400Regular',
-        lineHeight: 34,
-        color: '#333333'
-    },
-    recuperarSenha: {
-        fontFamily: 'Poppins_400Regular',
-        lineHeight: 34,
-        color: '#333333'
+    backButtonText: {
+
     }
 });
 
